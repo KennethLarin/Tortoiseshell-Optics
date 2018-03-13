@@ -44,3 +44,26 @@ nav {
 .navigation span {
   margin-right: 2rem;
 }
+
+.title-box {
+  max-width: 1032px;
+  width: 100%;
+  margin: 0 auto;
+
+}
+
+.title {
+  background-color: white;
+  position: relative;
+  float: right;
+  display: inline-block;
+  margin-top: 10rem;
+}
+
+.title h1 {
+  text-transform: uppercase;
+  font-size: 2rem;
+  font-weight: bold;
+  line-height: 1.2;
+  margin: 1.5rem 5rem;
+}
