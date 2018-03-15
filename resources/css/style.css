@@ -99,3 +99,31 @@ nav {
   height: auto;
   display: block;
 }
+
+/* Information Section */
+.information {
+  max-width: 960px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+}
+
+.infobox {
+  width: 35%;
+  margin: 0 2.5%;
+}
+
+.infobox h2 {
+  text-transform: uppercase;
+  font-weight: bold;
+  color: white;
+  background-color: cadetblue;
+  padding: 0.5rem 1.25rem;
+  margin-bottom: 1rem;
+  width: 10rem;
+}
+
+.infobox p {
+  line-height: 1.4;
+}
