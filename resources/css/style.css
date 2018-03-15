@@ -127,3 +127,19 @@ nav {
 .infobox p {
   line-height: 1.4;
 }
+
+/* Footer section */
+footer {
+  max-width: 960px;
+  background-color: azure;
+  margin: 5rem auto 0 auto;
+  display: flex;
+  align-items: center;
+  padding: 4rem;
+}
+
+footer img {
+  height: 1.5rem;
+  width: auto;
+  margin-right: 1rem;
+}
