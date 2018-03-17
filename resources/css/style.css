@@ -49,7 +49,6 @@ nav {
   max-width: 1032px;
   width: 100%;
   margin: 0 auto;
-
 }
 
 .title {
@@ -142,4 +141,23 @@ footer img {
   height: 1.5rem;
   width: auto;
   margin-right: 1rem;
+}
+
+/* tablets settings */
+@media only screen and (max-width: 768px) {
+  .banner {
+    height: 22rem;
+    padding: 0;
+  }
+
+ .title {
+   margin-top: 5rem;
+   margin-right: 2rem;
+ }
+
+ .title h1 {
+   font-size: 1.33rem;
+   margin: 0.75rem 4rem;
+   line-height: 1.4;
+ }
 }
