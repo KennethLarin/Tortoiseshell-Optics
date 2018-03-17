@@ -41,6 +41,10 @@ nav {
   margin-left: 1rem;
 }
 
+#menu {
+  display: none;
+}
+
 .navigation span {
   margin-right: 2rem;
 }
@@ -160,4 +164,36 @@ footer img {
    margin: 0.75rem 4rem;
    line-height: 1.4;
  }
+}
+
+/* Smartphone screen settings */
+@media only screen and (max-width: 480px) {
+  .banner {
+    height: 17rem;
+    background-position: 20%;
+  }
+
+  .company h3 {
+    display: none;
+  }
+
+  .navigation span {
+    display: none;
+  }
+
+  #menu {
+    display: inline-block;
+  }
+
+  .title {
+    margin: 9rem auto 0 auto;
+    text-align: center;
+    width: 100%;
+  }
+
+  .title h1 {
+    font-size: 1rem;
+    margin: 1rem auto;
+    line-height: normal;
+  }
 }
