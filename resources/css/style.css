@@ -168,6 +168,7 @@ footer img {
 
 /* Smartphone screen settings */
 @media only screen and (max-width: 480px) {
+  /* banner and title section */
   .banner {
     height: 17rem;
     background-position: 20%;
@@ -195,5 +196,43 @@ footer img {
     font-size: 1rem;
     margin: 1rem auto;
     line-height: normal;
+  }
+
+  /* services section */
+  .services {
+    flex-flow: column;
+    padding: 3.77rem auto;
+  }
+
+  .rulerbox {
+    margin: 1.54rem auto;
+  }
+
+  .description {
+    font-size: 0.77rem;
+  }
+
+  .item {
+    justify-content: space-around;
+  }
+
+  /* information section */
+  .information {
+    flex-flow: column;
+  }
+
+  .infobox {
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .infobox h2 {
+    width: 100%;
+    text-align: center;
+  }
+
+  .infobox p {
+    font-size: 0.77rem;
+    margin-bottom: 4rem;
   }
 }
