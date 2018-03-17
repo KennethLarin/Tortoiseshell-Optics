@@ -235,4 +235,15 @@ footer img {
     font-size: 0.77rem;
     margin-bottom: 4rem;
   }
+
+  /* footer section */
+  footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+
+  footer h3 {
+    display: none;
+  }
 }
